@@ -1,0 +1,28 @@
+{
+  "name": "vue-preset-pc",
+  "version": "0.1.0",
+  "description": "tracy vue preset for pc",
+  "main": "prompts.js",
+  "scripts": {
+    "release": "standard-version",
+    "changelog": "standard-version",
+    "commit": "git add . && npx git-cz"
+  },
+  "keywords": [
+    "vue",
+    "preset",
+    "tracy"
+  ],
+  "author": "tracy-chang",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0",
+    "standard-version": "^5.0.2",
+    "git-cz": "^4.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  }
+}

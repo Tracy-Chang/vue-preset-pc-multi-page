@@ -1,0 +1,23 @@
+{
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    },
+    "@vue/cli-plugin-unit-mocha": {}
+  },
+  "vuex": true,
+  "cssPreprocessor": "dart-sass",
+  "configs": {
+    "eslintConfig": {
+      "rules": {
+        "no-alert": 0
+      }
+    }
+  }
+}
